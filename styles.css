@@ -12,6 +12,11 @@ header {
     text-align: center;
 }
 
+.form-link {
+    color: #007BFF; /* Blue color */
+    text-decoration: underline; /* Underline text */
+}
+
 nav {
     margin: 20px 0;
     text-align: center;
@@ -49,6 +54,20 @@ section {
 
 h2 {
     color: #333;
+}
+
+.program-section {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 20px; /* Add some padding */
+    margin-bottom: 20px; /* Space below the section */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.info-section {
+    background-color: #e6f7ff; /* Light cyan background */
+    padding: 20px; /* Add some padding */
+    margin-bottom: 20px; /* Space below the section */
+    border-radius: 8px; /* Rounded corners */
 }
 
 .program-grid {
@@ -123,4 +142,58 @@ footer {
     text-align: center;
     margin-top: 20px;
     color: #777;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user {
+    background-color: #d1e7dd;
+    text-align: left;
+}
+
+.ai {
+    background-color: #f8d7da;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
 }
