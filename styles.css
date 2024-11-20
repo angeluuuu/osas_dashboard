@@ -15,6 +15,82 @@ header {
     text-align: center; /* Centers the text in the header */
 }
 
+body {
+    background: white; /* Sets the background color of the body to white */
+    color: #333; /* Sets the text color to a dark gray for better readability */
+    font-family: Arial, sans-serif; /* Sets the font family for the text */
+    margin: 0; /* Removes default margin around the body */
+    padding: 20px; /* Adds padding around the body */
+}
+.container {
+    max-width: 800px; /* Sets a maximum width for the container */
+    margin: auto; /* Centers the container on the page */
+    text-align: center; /* Centers the text inside the container */
+}
+header {
+    position: fixed; /* Fixes the header at the top of the page */
+    top: 0; /* Positions the header at the top */
+    left: 0; /* Aligns the header to the left */
+    right: 0; /* Aligns the header to the right */
+    background: white; /* Sets background color for the header */
+    z-index: 1000; /* Ensures the header is above other content */
+    padding: 10px 0; /* Adds padding to the header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+h1 {
+    font-size: 2.5em; /* Sets the font size for the title */
+    margin-bottom: 20px; /* Adds space below the title */
+    display: flex; /* Uses flexbox for layout */
+    align-items: center; /* Vertically centers items */
+}
+img.logo {
+    width: 50px; /* Sets the width of the logo image */
+    height: auto; /* Maintains aspect ratio */
+    margin-right: 15px; /* Adds space between the logo and the title */
+}
+.links {
+    display: flex; /* Uses flexbox for layout */
+    justify-content: center; /* Centers the links horizontally */
+    margin-top: 20px; /* Adds space above the links */
+}
+a {
+    background: #007BFF; /* Sets the background color of links */
+    color: white; /* Sets the text color of links to white */
+    padding: 0.5em 1em; /* Adds padding around the link text */
+    text-decoration: none; /* Removes underline from links */
+    border-radius: 5px; /* Rounds the corners of the link */
+    margin: 0 10px; /* Adds space between the links */
+    transition: background 0.3s ease; /* Adds a transition effect for background color on hover */
+}
+a:hover {
+    background: #0056b3; /* Changes the background color of the link when hovered */
+}
+
+/* New CSS for rounded images and float */
+.rounded {
+    border-radius: 10px; /* Rounded corners */
+}
+
+.float-start {
+    float: left; /* Float to the left */
+    margin-right: 15px; /* Space on the right */
+}
+
+.float-end {
+    float: right; /* Float to the right */
+    margin-left: 15px; /* Space on the left */
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main {
+    margin-top: 100px; /* Adds top margin to prevent content from being hidden behind the fixed header */
+}
+
 .img-logo {
     width: 200px; /* Set width to 200px */
     height: 200px; /* Set height to 200px */
